@@ -2,62 +2,25 @@
 <html ng-app="blogapp">
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
 	<title>Angular Blog Application</title>
 
-	<link href="src/assets/libs/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="src/assets/libs/css/style.css" rel="stylesheet" />
-
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'
-	/>
+    <link href="assets/libs/css/angular-material.min.css" rel="stylesheet"/>
 </head>
 
 <body>
-	<div class="header">
-		<div class="container">
-			<div class="header_top">
-				<div class="logo">
-					<a href="index.html"><img src="src/assets/images/logo.png" alt="" /></a>
-				</div>
-				<div class="cssmenu">
-					<ul>
-						<li><a href="mailto:info@mycompany.com">info(at)webhosting.com</a></li>
-						<li class="active"><a href="login.html">Log In</a></li>
-						<li><a href="register.html">Register</a></li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="h_menu4">
-				<!-- start h_menu4 -->
-				<a class="toggleMenu" href="#">Menu</a>
-				<ul class="nav">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About Us</a></li>
-					<li><a href="service.html">Service</a></li>
-					<li><a href="plans.html">Hosting Plans</a></li>
-					<li><a href="domain.html">Domain</a></li>
-					<li><a href="faq.html">FAQ</a></li>
-					<li><a href="testimonials.html">Testimonials</a></li>
-					<li class="active"><a href="blog.html">Blog</a></li>
-					<li><a href="support.html">Support</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
-				</ul>
-			</div>
-			<!-- end h_menu4 -->
-		</div>
-	</div>
-
+    <h1>main</h1>
 	<div ui-view></div>
 
-	<script src="src/assets/libs/js/angular.min.js"></script>
-	<script src="src/assets/libs/js/angular-ui-router.min.js"></script>
+	<script src="assets/libs/js/angular.min.js"></script>
+    <script src="assets/libs/js/angular-material.min.js"></script>
+    <script src="assets/libs/js/angular-animate.min.js"></script>
+    <script src="assets/libs/js/angular-aria.min.js"></script>
+    <script src="assets/libs/js/angular-ui-router.min.js"></script>
 
-	<script src="src/app/app.js"></script>
-	<script src="src/app/configs/stateConfigs.js"></script>
-	<script src="src/app/components/feed/FeedController.js"></script>
+	<script src="app/app.js"></script>
+    <script src="app/configs/state-config.js"></script>
+	
+	<script src="app/components/feed/feed-controller.js"></script>
 </body>
 
 </html>

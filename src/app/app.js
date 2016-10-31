@@ -1,1 +1,1 @@
-angular.module("blogapp", ["ui.router"]);
+angular.module("blogapp", ["ui.router", "ngMaterial"]);

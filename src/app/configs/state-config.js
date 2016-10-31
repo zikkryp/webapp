@@ -4,11 +4,11 @@ angular.module("blogapp").config(["$stateProvider", "$urlRouterProvider", functi
     $stateProvider
         .state("feed", {
             url: "/feed",
-            templateUrl: "src/app/components/feed/feed.html",
+            templateUrl: "app/components/feed/feed.html",
             controller: "FeedController"
         })
         .state("about", {
             url: "/about",
-            templateUrl: "src/app/components/about/about.html"
+            templateUrl: "app/components/about/about.html"
         });
 }]);
